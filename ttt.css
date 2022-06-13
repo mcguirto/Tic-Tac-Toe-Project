@@ -1,0 +1,13 @@
+#container {
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 20% 20% 20%;
+    grid-gap: 2%;
+}
+
+.cells{
+    background-color: red;
+    cursor: pointer;
+}
